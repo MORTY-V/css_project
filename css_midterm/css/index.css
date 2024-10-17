@@ -11,6 +11,11 @@ ul {
     justify-content: flex-end; /* moves content to the right */
 }
 
+h1 a {
+    text-decoration: none; /* gets rid of underline */
+    color: black;
+}
+
 li a{
     text-decoration: none; /* gets rid of underline */
     color:white;
