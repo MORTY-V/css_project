@@ -3,20 +3,77 @@ body{
     font-family: "Gill Sans", sans-serif;
 }
 
-h1{
-    font-family: "Apple Chancery", cursive;
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/css_midterm/images/Catherine-Jason-Sinn-1920x400-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+
+    color:white;
+    padding-left: 50px;
 }
 
-ul {
+h1{
+    font-family: "Apple Chancery", cursive;
+    font-size: 2em;
+}
+
+.content-pic{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content-pic h2{
+    font-size: 3.125em; /* 50px/16=3.125em */
+    letter-spacing: 2px;
+}
+
+.content-pic h3{
+    font-size: 1.25em; /* 20px/16=1.25em */
+    padding-top: 20px;
+}
+
+.content-pic .par{
+    letter-spacing: 1.2px;
+    padding-bottom: 15px;
+}
+
+.content-pic .cn{
+    width: 180px;
+    height: 50px;
+    background: #637488;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s ease;
+    
+}
+
+.content-pic .cn a{
+    text-decoration: none;
+    color: white;
+    /* transition: .3s ease; */
+}
+
+.cn:hover{
+    background-color: #334860;
+}
+
+ul{
     list-style-type: none; /* gets rid of bullets */
     display: flex;
     background-color: black;
     margin:0;
-    padding: 10px 0px;
+    padding: 15px 0px;
     justify-content: flex-end; /* moves content to the right */
 }
 
-h1 a {
+h1 a{
     text-decoration: none; /* gets rid of underline */
     color: black;
 }
@@ -24,17 +81,17 @@ h1 a {
 li a{
     text-decoration: none; /* gets rid of underline */
     color:white;
-    padding: 10px 30px; /* first value: top/bottom , second value: left/right*/
+    padding: 15px 30px; /* first value: top/bottom , second value: left/right*/
     /* font-family: "Sixtyfour Convergence", sans-serif; */
     font-family: "Gill Sans", sans-serif;
 }
 
 li a:hover{ /* pseudoclass */
-    background-color: rgb(90, 55, 68);
+    background-color: #888484;
     color: white;
 }
 
 /* when you click on the link */
-li a:active { 
-    background-color: darkmagenta;
+li a:active{ 
+    background-color: #637488;
 }
