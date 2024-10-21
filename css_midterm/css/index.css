@@ -64,7 +64,7 @@ h1{
     background-color: #334860;
 }
 
-ul{
+nav ul{
     list-style-type: none; /* gets rid of bullets */
     display: flex;
     background-color: black;
