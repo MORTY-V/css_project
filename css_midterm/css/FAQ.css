@@ -1,7 +1,7 @@
 #title {
     position: relative;
     width: 100%;
-    height: 300px; /* Set height to fit the background image */
+    height: 30vh; 
     overflow: hidden;
 }
 
@@ -13,10 +13,12 @@
     height: 100%;
     object-fit: cover;
     z-index: 1;
+    opacity: 80%;
 }
+
 #title h1 {
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -31,6 +33,10 @@ h1{
     margin-left: 5vw;
 }
 
+.about{
+    margin-bottom: 5vh;
+}
+
 h2{
     text-align: center;
 }
@@ -40,6 +46,18 @@ h2{
     max-width: 100%;
 }
 
-#food{
+#event{
     margin-bottom: 10vh;
+}
+
+img{
+    width: 1000%;
+    max-width: 100%;
+    min-width: none;
+}
+
+#steamboat{
+    align-items: center;
+    margin:0vh 10vw;
+    position: relative;
 }
