@@ -1,12 +1,46 @@
+body{
+    background-color: #ffa591;
+}
+
 #Mission{
     text-align: center;
-    margin: 20vh 20vw;
+    margin: 10vh 20vw;    
+}
+
+img{
+    width: 1250px;
+    max-width: 100%;
+    min-width: none;
+    field-sizing: inherit;
+}
+
+#talkback{
+    margin: 0vh 10vw;
+    position: relative;
+}
+
+#chris{
+    margin: 0vh 10vw;
+    position: relative;
 }
 
 .description{
-    margin: 10vh 10vw;
+    margin: 0vh 10vw;
+    max-width: 100%;
+}
+
+h1{
+    margin-left: 5vw;
 }
 
 h2{
     text-align: center;
+}
+
+#aboutSection{
+    margin-bottom: 5vh 10vw;
+}
+
+#offer {
+    margin-bottom: 10vh;
 }
